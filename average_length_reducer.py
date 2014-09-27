@@ -36,7 +36,7 @@ for line in sys.stdin:
     if thisnode == "question":
        len_post = thislen
        
-    else: # an answer
+    else: # the node type is an anser
        # get the sum of lengths of count and count the number to calculate the average
        len_answer += int(thislen)
        answer_count += 1
