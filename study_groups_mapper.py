@@ -17,5 +17,4 @@ for line in reader: # Looping around standard input which gives us a line at the
           print "{0}\t{1}".format(line[0],line[3])
 
        else: # something other than a question
-           if line[5] == "answer" or line[5] == "comment":
-              print "{0}\t{1}".format(line[6],line[3])
+          print "{0}\t{1}".format(line[6],line[3])
